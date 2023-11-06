@@ -1,8 +1,5 @@
-* {
-    color: wheat;
-}
 body {
-    background-color: indigo;
+    background-color: lavenderblush;
 }
 nav {
     border-style: solid;
@@ -11,19 +8,23 @@ nav {
 #bodydiv {
     padding: 20px;
 }
+#searchbar {
+    margin-left: 20px;
+}
 h1 {
     font-family: "Lucida Handwriting", cursive;
+    font-size: 100px;
 }
 p {
     padding-top: 10px;
     font-family: Helvitica, sans-serif;
 }
 a {
-    color: yellow;
+    color: darkslateblue;
 }
 img {
-    margin: 5px;
-    aspect-ratio: 13/9;
+    width: 100%;
+    height: auto;
 }
 .info{
     font-family: 'Trebuchet MS', sans-serif;
@@ -35,18 +36,13 @@ img {
 .contact{
     color: lightgray;
 }
-h3{
-    color: wheat;
-}
-h3.name{
-    font-weight: bold;
-}
 h5.description{
     font-style: italic;
 }
 div.row-bordered{
     border-style: solid;
-    border-color: darkslateblue;
+    border-color: saddlebrown;
+    border-radius: 15px;
     margin: 10px;
     padding: 5px;
 }
