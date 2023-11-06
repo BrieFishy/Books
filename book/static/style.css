@@ -1,0 +1,67 @@
+* {
+    color: wheat;
+}
+body {
+    background-color: indigo;
+}
+nav {
+    border-style: solid;
+    border-color: black;
+}
+#bodydiv {
+    padding: 20px;
+}
+h1 {
+    font-family: "Lucida Handwriting", cursive;
+}
+p {
+    padding-top: 10px;
+    font-family: Helvitica, sans-serif;
+}
+a {
+    color: yellow;
+}
+img {
+    margin: 5px;
+    aspect-ratio: 13/9;
+}
+.info{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.about {
+    color: white;
+}
+.contact{
+    color: lightgray;
+}
+h3{
+    color: wheat;
+}
+h3.name{
+    font-weight: bold;
+}
+h5.description{
+    font-style: italic;
+}
+div.row-bordered{
+    border-style: solid;
+    border-color: darkslateblue;
+    margin: 10px;
+    padding: 5px;
+}
+input,button{
+    color: black;
+    background-color: wheat;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px;
+    border: black 4px solid;
+}
+input[type=button],input[type=submit],button[type=submit]{
+    color: black;
+    background-color: wheat;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
